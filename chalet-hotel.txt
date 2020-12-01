@@ -1,0 +1,1 @@
+Example for a Liquid-layout. Single page project just to show how this type of layout works.

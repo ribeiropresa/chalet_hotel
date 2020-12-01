@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;	
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	background: #fff url(../images/bg.png);
+	margin: 15px; 
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h2 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 10px 0px;
+}
+
+p{
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+
+#container {
+	background: #ede9cc url(../images/bg-container.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
+
+#top {
+	position: relative;
+	background: #dbcd87; 
+	height: 15.4em;
+	min-height: 250px;
+}
+
+#logo-area {
+	position: absolute;
+	background: url(../images/top-main-image.png) no-repeat;
+	width: 100%;
+	height: 250px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.logo a {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(../images/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+}
+
+#hotel-name {
+	font-size: 25px;
+	margin-top: 40px;
+	margin-left: 10px;
+	color: #887b34;
+}
+
+#menu-area {
+	position: absolute;
+	background: url(../images/top-side-image.png) no-repeat;
+	width: 450px;
+	height: 250px; 
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+#menu-content {
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;  
+}
+
+#menu-locals {
+	border-bottom: 1px solid #b5ab56;
+	border-top: 1px solid #b5ab56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-style: 0.7em;
+	color: #8b8448;
+}
+#menu-locals .locals {
+	float: left;
+	line-height: 2.1em;
+}
+
+a.book {
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0; 
+	padding: 5px 10px;
+	float: right; 
+}
+
+#menu{
+	margin-top: 15px;
+}
+
+ul#nav {
+	float: left;
+}
+ul#nav a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+
+ul#nav a:hover {
+	background: #fdf6be;
+}
+
+.comment {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+img#ornament-top,
+#ornament-bottom {
+	width: 80px;
+	margin-left: 73px;
+}
+h2#comment-menu {
+	color: #a29750;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#main-area,
+#main-area-history,
+#main-area-press,
+#main-area-gastronomy,
+#main-area-contact {
+	background: url(../images/bg-main-area.png) top left repeat-x;
+}
+
+#main-area { 
+	float: left;
+	width: 50%;  
+	padding: 15px 0px;
+}
+
+#side-area { 
+	float: right;
+	width: 50%;
+	background: url(../images/bg-side-area.png) top left repeat-x;
+	padding: 20px 0px; 
+}
+
+.content-description {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#footer {
+	clear: both;
+	background: #fff url(../images/bg-footer.png) repeat-x top;
+	padding: 15px; 
+	color: #7d7640;
+}
+
+#facilities-list li {
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+
+#facilities-list li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#facilities-list li a p {
+	color: #000;
+	font-size: 0.75em;
+}
+
+#facilities-list li a h3 {
+	font-size: 1em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: url(../images/ornament.png) no-repeat center right;
+}
+
+#facilities-list li:hover {
+	background: #f6f3d6;
+	cursor: pointer; 
+}
+
+#main-area-history { 
+	float: left;
+	width: 100%;  
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.content-history {
+	margin-top: 30px;
+}
+
+#time-list li {
+	font-size: 1em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: #efeacc url(../images/ornament.png) no-repeat center left;
+	border-bottom: 1px solid #f3efcb;
+}
+
+#time-list li:hover {
+	background: #f6f3d6;
+	cursor: pointer; 
+}
+
+#time-list li h3 {
+	font-size: 2em;
+	color: #615b2d;
+}
+
+#time-list li p {
+	font-size: 1em;
+	color: #615b2d;
+	width: 80%;
+	margin: 5px auto;
+}
+
+.content-press {
+	width: 100%;
+}
+
+#news-list {
+	width: 20%;
+	float: left;
+	margin: 0% 0% 0% -95%;
+	padding-left: 5px;
+}
+
+#main-area-press #primary {
+	width: 40%;
+	float: left;
+	background: red;	
+}
+
+#primary {
+	margin: 0% 2.5% 0% 25%;
+}
+
+#awards-list {
+	width: 30%;
+	float: left;
+	background: yellow;
+	margin: 0% 0% 0% 0%;
+}
